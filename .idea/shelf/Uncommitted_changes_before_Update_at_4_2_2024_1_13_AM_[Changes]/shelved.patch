@@ -1,0 +1,245 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1712008062136)
++++ b/.idea/modules.xml	(date 1712008062136)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/MKR_cicd_1.iml" filepath="$PROJECT_DIR$/.idea/MKR_cicd_1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1712009572305)
++++ b/.idea/workspace.xml	(date 1712009572305)
+@@ -0,0 +1,163 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="c5c70b4f-87e5-4c56-a5ea-16248b40640d" name="Changes" comment="Initial commit">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 6
++}]]></component>
++  <component name="ProjectId" id="2eW6bDsw4AsbnABc9dQ1pzdgerJ" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python.main.executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
++  }
++}]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="E:\Python_projects\MKR_cicd_1\src" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++      <module name="MKR_cicd_1" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="E:\Python_projects\MKR_cicd_1\src\main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="c5c70b4f-87e5-4c56-a5ea-16248b40640d" name="Changes" comment="" />
++      <created>1712008055836</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1712008055836</updated>
++      <workItem from="1712008061360" duration="1499000" />
++    </task>
++    <task id="LOCAL-00001" summary="Gitignore create">
++      <option name="closed" value="true" />
++      <created>1712008698473</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1712008698473</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1712009494091</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1712009494091</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Gitignore create" />
++    <MESSAGE value="Initial commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/src/main.py</url>
++          <line>8</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/MKR_cicd_1$main.coverage" NAME="main Coverage Results" MODIFIED="1712008717116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1712008123925)
++++ b/.idea/misc.xml	(date 1712008123925)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.12 (MKR_cicd_1)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (MKR_cicd_1)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1712008062167)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1712008062167)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1712008062173)
++++ b/.idea/vcs.xml	(date 1712008062173)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
