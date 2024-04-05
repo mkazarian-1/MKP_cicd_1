@@ -1,0 +1,2 @@
+Words amount:1
+Sentence amount:1
