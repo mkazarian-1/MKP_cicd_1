@@ -1,16 +1,18 @@
-# This is a sample Python script.
+from src import FileReader, FileWriter, Processor
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+READ_PATH = 'resources/read.txt'
+WRITE_PATH = 'resources/write.txt'
+WORD_DELIMITERS = [",", " ", ":", ";"]
+SENTENCE_DELIMITERS = [".", "!", "?", "..."]
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    fileReader = FileReader.FileReader()
+    fileWriter = FileWriter.FileWriter()
+    processor = Processor.Processor()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    words_amount,sentence_amount = processor.count_division(fileReader.read(READ_PATH), WORD_DELIMITERS,
+                                                            SENTENCE_DELIMITERS)
+
+    report = "Words amount:" + str(words_amount) + "\nSentence amount:" + str(sentence_amount)
+
+    fileWriter.write(WRITE_PATH, report)
